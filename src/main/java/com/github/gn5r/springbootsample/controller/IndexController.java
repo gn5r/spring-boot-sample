@@ -23,7 +23,7 @@ public class IndexController extends AbstractController {
         return "index";
     }
 
-    @GetMapping("/err")
+    @GetMapping("/error")
     public String error(Model model) {
         CmnLogger.APP.info("エラーページへ遷移" + "model:" + model);
         return "error";

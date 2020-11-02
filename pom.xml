@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.github.gn5r</groupId>
 	<artifactId>spring-boot-sample</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0</version>
 	<packaging>war</packaging>
 	<name>spring-boot-sample</name>
 	<description>Demo project for Spring Boot</description>
@@ -81,6 +81,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>gn5rapl#spring-boot-sample</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
