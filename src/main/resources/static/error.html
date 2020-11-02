@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>システムエラー</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <h1 th:text="${error.status}"></h1>
+    <h1>エラーが発生しました。管理者に問い合わせ下さい</h1>
+    <h1 th:text="${error.message}"></h1>
+</body>
+
+</html>

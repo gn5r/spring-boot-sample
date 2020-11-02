@@ -1,0 +1,8 @@
+{
+  "java.configuration.maven.userSettings": "W:\\nexus3\\settings.xml",
+  "maven.executable.options": "-s W:\\nexus3\\settings.xml",
+  "maven.terminal.favorites": [
+    { "alias": "package", "command": "clean package" }
+  ],
+  "java.configuration.updateBuildConfiguration": "automatic"
+}
